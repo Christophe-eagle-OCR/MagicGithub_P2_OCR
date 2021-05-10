@@ -9,7 +9,9 @@ public class UserRepository {
 
     private final ApiService apiService; // TODO: A utiliser
 
-    public UserRepository(ApiService apiService) {this.apiService = apiService;}
+    public UserRepository(ApiService apiService) {
+        this.apiService = apiService;
+    }
 
     public List<User> getUsers() {
         // TODO: A modifier
